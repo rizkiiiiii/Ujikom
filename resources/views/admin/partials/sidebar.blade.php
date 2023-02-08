@@ -27,6 +27,11 @@
           <i class="fas fa-money-check-alt"></i><span>Data Pemesanan</span>
         </a>
       </li>
+      <li class="{{ request()->is('admin/laporan') || request()->is('admin/laporan/*') ? 'active' : '' }}">
+        <a href="/admin/laporan" class="nav-link">
+          <i class="fas fa-money-check-alt"></i><span>Laporan</span>
+        </a>
+      </li>
       <li class="menu-header">Logout</li>
       <li>
         <a href="#" class="nav-link" id="logout-btn">

@@ -9,7 +9,7 @@
                         <h6 class="text-white" style="-webkit-text-stroke: 0.1px gray;">Cari Mobil Impianmu Disini!</h6>
                         <h3 class="text-light" style="-webkit-text-stroke: 1px red;">Temukan mobil yang cocok dan sudah lama
                             kamu impikan disini!</h3>
-                        <div class="red_button shop_now_button"><a href="#">Lihat Sekarang</a></div>
+                        <div class="red_button shop_now_button"><a href="/mobil">Lihat Sekarang</a></div>
                     </div>
                 </div>
             </div>

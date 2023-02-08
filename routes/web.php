@@ -6,6 +6,7 @@ use App\Http\Controllers\MerekController;
 use App\Http\Controllers\MobilController;
 use App\Http\Controllers\PenggunaController;
 use App\Http\Controllers\PesananController;
+use App\Http\Controllers\LaporanController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -54,6 +55,10 @@ Route::group(['prefix' => 'admin'], function () {
   Route::resource('/mobil', MobilController::class);
 
   Route::resource('/pemesanan', PesananController::class);
+  
+  Route::resource('/laporan', LaporanController::class);
+
+  Route::post('print', [LaporanController::class, 'laporan'])->name('laporan.print');
 });
 
 Auth::routes();

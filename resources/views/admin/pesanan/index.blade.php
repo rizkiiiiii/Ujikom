@@ -48,6 +48,9 @@
                       </a>
                     </td>
                   </tr>
+                  <tr>
+
+                  </tr>
                 @endforeach
               </tbody>
             </table>

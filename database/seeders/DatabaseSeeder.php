@@ -55,6 +55,14 @@ class DatabaseSeeder extends Seeder
             'foto_profil' => 'admin2.jpeg',
             'password' => Hash::make('farhan123'),
         ]);
+        User::create([
+            'nama' => 'Rizki',
+            'id_role' => 1,
+            'email' => 'rizki@gmail.com',
+            'username' => 'rizki',
+            'foto_profil' => 'admin1.jpeg',
+            'password' => Hash::make('rizki123'),
+        ]);
 
         // User::create([
         //     'nama' => 'Komi Shouko',
